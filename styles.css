@@ -1,70 +1,88 @@
-body,html
+body
 {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 62.5%;
-}
-
-p {
-    color: blue;
     font-family: 'Raleway', sans-serif;
-}
-
-h1{
-    font-size: 2.6rem;
-    color:black;
-    font-family: sans-serif;
-}
-
-h2 {
-    font-size: 4.8rem;
     font-family: 'Raleway', sans-serif;
+    color : #181818;
+    margin: 0px;
+    padding:0px;
 }
 
-h3 {
-    font-size: 3rem;
-    font-family: 'Raleway', sans-serif;
+.text-bleu{
+    color: #0065FC;
+    font-weight: bold;
 }
-
-h4, h5 {
-    font-size: 2.8rem;
-    font-family: 'Raleway', sans-serif;
+/* HEADER */
+header
+{
+    padding-left: 20px;
+    margin:0px;
 }
-
-li{
-    font-size: 2rem;
-    font-family: 'Raleway', sans-serif;
-}
-a{
-    color: black;
-    text-decoration: none;
-}
-
-/* HEADER */ 
-.main-head{
-    background: white;
-    color: black;
-}
-
-
-nav{
-    min-height: 10vh;
+#menu
+{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    width: 90%;
-    margin: auto;
-    padding: 2rem;
 }
 
-nav ul{
+img{
+    width: 100px;
+}
+
+#inscription{
+    display: block;
+    margin-top: 0px;
+    height: 83px;
+    line-height: 67px;
+    vertical-align: middle;
+}
+
+/* menu nav header*/
+nav {
+        margin: 0px;
+        padding: 0px;
+        height: 83px;
+    }
+
+    nav ul
+    {
+        display: flex;
+        text-decoration: none;
+        list-style-type: none;
+        margin-top: 0px;
+    }
+
+    nav li{
+        margin-right: 20px;
+        border-top: transparent 2px solid;
+    }
+
+    nav li:hover{
+        color: #0065FC;
+    }
+
+/* section */ 
+    #ligne1
+    {
+        display: flex;
+        background-color: #F2F2F2;
+        
+    }
+
+    #ligne2
+    {
+        display: flex;
+        background-color: #F2F2F2;
+        
+    }
+
+aside
+    { 
+        display: flex;
+        background-color: #F2F2F2;
+    }
+/* FOOTER */
+footer{
     display: flex;
-    flex: 1 1 40rem;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-}
-
-.logo{
-    flex: 1 1 40rem;
+    padding-top: 5%;
+    background-color:#F2F2F2;
 }
