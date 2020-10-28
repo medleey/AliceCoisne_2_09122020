@@ -1,53 +1,55 @@
-body
-{
+body {
     font-family: 'Raleway', sans-serif;
     font-family: 'Raleway', sans-serif;
-    color : #181818;
+    color: #181818;
     margin: 0px;
-    padding:0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-img{
+img {
     width: 200px;
 }
 
-.text-bleu{
+.text-bleu {
     color: #0065FC;
     font-weight: bold;
 }
 
-.text_gris{
-    color : #F2F2F2;
+.text_gris {
+    color: #F2F2F2;
     font-weight: bold;
 }
 
 
 /* HEADER */
-header
-{
+header {
     padding-left: 20px;
-    margin:0px;
+    margin: 0px;
 }
 
-.logo { 
-    object-fit:contain;
+.logo {
+    object-fit: contain;
 }
-#menu
-{
+
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#menu img{
+header img {
     width: 100px;
 }
 
-#menu p{
+header p {
     flex: 1 70%;
 }
 
-#menu a, #inscription{
+header a,
+#inscription {
     text-decoration: none;
     display: block;
     margin-top: 0px;
@@ -59,40 +61,39 @@ header
 
 /* menu nav header*/
 nav {
-        margin: 0px;
-        padding: 0px;
-        height: 83px;
-    }
+    margin: 0px;
+    padding: 0px;
+    height: 83px;
+}
 
-    nav ul
-    {
-        display: flex;
-        list-style-type: none;
-        margin-top: 0px;
-    }
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 0px;
+}
 
-    nav li{
-        margin-right: 20px;
-        border-top: transparent 2px solid;
-    }
+nav li {
+    margin-right: 20px;
+    border-top: transparent 2px solid;
+}
 
-    nav a {
-        display: inline-block;
-        text-decoration: none;
-        font-size: 1em;
-        color: #181818;
-        padding: 20px 15px;
-        border-top: transparent 2px solid; 
-    }
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1em;
+    color: #181818;
+    padding: 20px 15px;
+    border-top: transparent 2px solid;
+}
 
-    nav li:hover{
-        color: #0065FC;
-        border-top: #0065FC 2px solid;
-    }
+nav li:hover {
+    color: #0065FC;
+    border-top: #0065FC 2px solid;
+}
 
-    /*Champ recherche*/
+/*Champ recherche*/
 
-#recherche{
+#recherche {
     display: flex;
     height: 40px;
     padding-left: 20px;
@@ -102,14 +103,14 @@ nav {
     padding: 10px;
     background-color: #F2F2F2;
     border-radius: 15px 0px 0px 15px;
-    width:30px;
+    width: 30px;
     text-align: center;
 }
 
-#recherche input{
+#recherche input {
     color: black;
     border: 1px solid #F2F2F2;
-    height:36px;
+    height: 36px;
     margin-left: -5px;
     font-weight: bold;
 }
@@ -119,14 +120,14 @@ nav {
     display: none;
 }
 
-.bouton_recherche{
+.bouton_recherche {
     padding: 10px;
     background-color: #0065FC;
     border-radius: 0px 15px 15px 0px;
     text-align: center;
     color: white;
     border: 1px solid #F2F2F2;
-    height:40px;
+    height: 40px;
     margin-left: -5px;
 }
 
@@ -135,7 +136,7 @@ nav {
 }
 
 /*Filtres*/
-#filtres{
+#filtres {
     display: flex;
     align-items: center;
     margin-top: 15px;
@@ -147,12 +148,12 @@ nav {
     font-size: 1em;
 }
 
-#filtres ul{
+#filtres ul {
     display: flex;
     list-style-type: none;
 }
 
-#filtres li{
+#filtres li {
     margin-right: 20px;
     border: #F2F2F2 1px solid;
     border-radius: 20px 20px 20px 20px;
@@ -166,8 +167,8 @@ nav {
     text-align: center;
     color: #0065FC;
     border: 1px solid #F2F2F2;
-    height:40px;
-    width:40px;
+    height: 40px;
+    width: 40px;
     margin-left: -5px;
 }
 
@@ -179,7 +180,7 @@ nav {
 
 /*info*/
 
-#info{
+#info {
     padding-left: 20px;
 }
 
@@ -192,145 +193,167 @@ nav {
     margin-right: 15px;
     height: 10px;
     width: 10px;
-    text-align:center;
+    text-align: center;
 }
 
 /*Corp*/
 
-#corps{
+#corps {
     display: flex;
     padding-left: 20px;
 }
 
 
-/* section */ 
-    #ligne1
-    {
-        display: flex;
-        background-color: #F2F2F2;
-        width: 55rem;
-        height: initial;
-    }
-
-    .cannebiere
-    {
-        background-color: white;
-        display: block;
-        border-radius: 15px 15px 15px 15px;
-        box-shadow:black 2px 2px 2px 2px;      
-        width:230px;
-        height: 210px;
-        padding: 1px;
-        margin-top: 80px;
-        margin-left: 30px;
-        margin-right: 30px;
-        margin-bottom: 30px;
-
-    }
-
-    .hotelDuPort
-    { 
-        background-color: white;
-        display: block;
-        border-radius: 15px 15px 15px 15px;
-        box-shadow:black 2px 2px 2px 2px;      
-        width:230px;
-        height: 210px;
-        padding: 1px;
-        margin-top: 80px;
-        margin-left: 30px;
-        margin-right: 30px;
-        margin-bottom: 30px;
-
-
-    }
-
-    .hotelDesMouettes
-    {
-        background-color: white;
-        display: block;
-        border-radius: 15px 15px 15px 15px;
-        box-shadow:black 2px 2px 2px 2px;      
-        width:230px;
-        height: 210px;
-        padding: 1px;
-        margin-top: 80px;
-        margin-left: 30px;
-        margin-right: 30px;
-        margin-bottom: 30px; 
-    }
-
-
-    #ligne2
-    {
-        display: flex;
-        background-color: #F2F2F2;
-        width: 55rem;
-        height: initial;
-    }
-
-    .hotelDeLaMer
-    {
-        background-color: white;
-        display: block;
-        border-radius: 15px 15px 15px 15px;
-        box-shadow:black 2px 2px 2px 2px;      
-        width:230px;
-        height: 210px;
-        padding: 1px;
-        margin: 10px 30px 10px 30px;
-    }
-
-    .aubergeLePanier
-    {
-        background-color: white;
-        display: block;
-        border-radius: 15px 15px 15px 15px;
-        box-shadow:black 2px 2px 2px 2px;      
-        width:230px;
-        height: 210px;
-        padding: 1px;
-        margin: 10px 30px 10px 30px;
-    }
-
-    .chezAmina
-    {
-        background-color: white;
-        display: block;
-        border-radius: 15px 15px 15px 15px;
-        box-shadow:black 2px 2px 2px 2px;      
-        width:230px;
-        height: 210px;
-        padding: 1px;
-        margin: 10px 30px 10px 30px;
-    }
-
-    img{
-        height: 100px;
-        width: 220px;
-        object-fit: cover;
-        border-radius: 15px 15px 0px 0px;
-    }
-
-        
-    }
-aside
-    { 
-        display: flex;
-        background-color: #F2F2F2;
-    }
-/* FOOTER */
-footer{
+/* section */
+#ligne1 {
     display: flex;
-    padding-top: 5%;
-    background-color:#F2F2F2;
+    background-color: #F2F2F2;
+    width: 55rem;
+    height: initial;
+}
+
+.cannebiere {
+    background-color: white;
+    display: block;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: black 2px 2px 2px 2px;
+    width: 230px;
+    height: 210px;
+    padding: 1px;
+    margin-top: 80px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
 
 }
 
-   
+.hotelDuPort {
+    background-color: white;
+    display: block;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: black 2px 2px 2px 2px;
+    width: 230px;
+    height: 210px;
+    padding: 1px;
+    margin-top: 80px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
 
 
-.text-gras
-{
+}
+
+.hotelDesMouettes {
+    background-color: white;
+    display: block;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: black 2px 2px 2px 2px;
+    width: 230px;
+    height: 210px;
+    padding: 1px;
+    margin-top: 80px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+
+#ligne2 {
+    display: flex;
+    background-color: #F2F2F2;
+    width: 55rem;
+    height: initial;
+}
+
+.hotelDeLaMer {
+    background-color: white;
+    display: block;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: black 2px 2px 2px 2px;
+    width: 230px;
+    height: 210px;
+    padding: 1px;
+    margin: 10px 30px 10px 30px;
+}
+
+.aubergeLePanier {
+    background-color: white;
+    display: block;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: black 2px 2px 2px 2px;
+    width: 230px;
+    height: 210px;
+    padding: 1px;
+    margin: 10px 30px 10px 30px;
+}
+
+.chezAmina {
+    background-color: white;
+    display: block;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: black 2px 2px 2px 2px;
+    width: 230px;
+    height: 210px;
+    padding: 1px;
+    margin: 10px 30px 10px 30px;
+}
+
+img {
+    height: 100px;
+    width: 220px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+}
+
+
+}
+
+aside {
+    display: flex;
+    background-color: #F2F2F2;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    padding-top: 5%;
+    background-color: #F2F2F2;
+    margin-top: auto;
+}
+
+.text-gras {
+    font-weight: bold;
+}
+
+#ancre_hebergement {
+    background-color: lightgrey;
+    padding: 30px;
+}
+
+.fiches {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 800px;
+    justify-content: space-between;
+}
+
+.fiches>a {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: inherit;
+}
+
+article>a {
+    text-decoration: none;
+    color: inherit;
+}
+
+article>a:hover {
     font-weight: bold;
 }
