@@ -1,0 +1,330 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color: #181818;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.mobile {
+    padding: 0 20px;
+}
+h1
+{
+    font-size: large;
+}
+
+h2
+{
+    font-size: large;
+}
+
+h3
+{
+    font-size: medium;
+}
+
+li
+{
+    font-size: small;
+}
+
+p
+{
+    font-size: small;
+    line-height: 5px;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.text-bleu
+{
+    color: #0065FC;
+}
+
+.text-gris
+{
+    color: #F2F2F2;
+}
+
+/*header*/
+
+header
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+header img
+{
+    width: 100px;
+    object-fit: contain;
+}
+
+header nav
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: small;
+}
+
+header ul  
+{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-around;
+    
+}
+
+header ul li
+{
+    margin-left: 80px;
+    
+}
+
+@media all and (max-width: 700px) 
+{
+   header ul li
+    {
+        margin-left: 20px;
+    }
+}
+
+header a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+header li:hover
+{
+    color: #0065FC;
+    border-top: #0065FC 2px solid;
+}
+
+
+/*recherches*/
+form
+{
+    display: flex;
+    
+}
+
+#localisation
+{
+    background-color: #F2F2F2;
+    border-radius: 10px 0px 0px 10px; 
+    border: 2px solid #F2F2F2;
+}
+
+.recherche
+{ 
+    background-color: #0065FC;
+    border-radius: 0px 10px 10px 0px;
+    color: white;
+    border: 1px solid #0065FC;
+
+}
+
+input
+{
+    padding: 5px;
+    height: 20px;
+    font-weight: bold;
+    border: 2px solid #F2F2F2;
+}
+
+/*filtres*/
+#filtres {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    padding-left: 20px;
+    font-weight: bold;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    
+}
+
+#filtres h2
+{
+    margin-right: 20px;
+}
+
+#filtres ul 
+{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    padding-left: 0px;
+    font-weight: bold;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 800px;
+}
+#filtres li
+{
+    border: 2px solid #F2F2F2;
+    border-radius: 20px;
+    list-style-type: none;
+    padding-right: 20px;
+    margin-left: 20px;
+}
+
+.switch{
+    padding: 10px;
+    background-color: #DEEBFF;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    color: #0065FC;
+    border: 1px solid #DEEBFF;
+    height: 40px;
+    width: 40px;
+    margin-left: -5px;
+    margin-right: 10px;
+}
+
+/*HERBERGEMENT*/
+
+#ancre_hebergement 
+{
+    background-color: #F2F2F2;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.fiches {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 800px;
+    justify-content: space-between;
+}
+
+.hotel
+{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.hotel>div>span
+{
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.fiches img {
+    height: 100px;
+    width: 220px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+    padding: 5px;
+}
+
+.fiches a
+{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-decoration: none;
+    color: inherit;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+.fiches p, h3
+{
+    margin: 5px;
+    margin-left: 15px;
+}
+
+.fiches h2
+{
+    margin-bottom: 20px;
+}
+
+.hotel span
+{
+    font-size: x-small;
+    margin-bottom: 10px;
+}
+
+article>a
+{
+    text-decoration: none;
+    color: inherit;
+}
+article>a:hover
+    {
+        font-weight: bold;
+    }
+
+/*ASIDE*/
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.aside p, h3
+{
+    margin: 5px;
+    margin-left: 15px;
+}
+
+#populaires-aside 
+{
+    background-color: #F2F2F2;
+    width: auto;
+    max-width: 500px;
+    border-radius: 15px;
+    padding: 20px;
+
+}
+
+aside .populaires
+{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+}
+
+aside img
+{
+    height: 100px;
+    width: 220px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+    padding: 5px;
+}
+
+
+/* footer*/
+footer
+{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F2F2F2;
+    margin-top: auto;
+    padding-top: 5%;
+}
+
+footer ul
+{
+    list-style-type: none;
+}
