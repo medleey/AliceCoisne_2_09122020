@@ -12,31 +12,7 @@ body {
 .mobile {
     padding: 0 20px;
 }
-h1
-{
-    font-size: large;
-}
 
-h2
-{
-    font-size: large;
-}
-
-h3
-{
-    font-size: medium;
-}
-
-li
-{
-    font-size: small;
-}
-
-p
-{
-    font-size: small;
-    line-height: 5px;
-}
 
 .bold
 {
@@ -198,9 +174,8 @@ input
 #ancre_hebergement 
 {
     background-color: #F2F2F2;
-    flex-direction: column;
     width: 100%;
-    max-width: 800px;
+    max-width: 1000px;
     border-radius: 15px;
     padding: 20px;
 }
@@ -227,8 +202,8 @@ justify-content: space-between;
 }
 
 .fiches img {
-    height: 100px;
-    width: 220px;
+    height: 150px;
+    width: 300px;
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
     padding: 5px;
@@ -256,11 +231,6 @@ justify-content: space-between;
     margin-bottom: 20px;
 }
 
-.hotel span
-{
-    font-size: x-small;
-    margin-bottom: 10px;
-}
 
 article>a
 {
@@ -276,8 +246,7 @@ article>a:hover
 .container
 {
     display: flex;
-    flex-direction: column;
-    justify-content: right;
+    flex-wrap: wrap;
 }
 
 .aside p, h3
@@ -293,23 +262,24 @@ article>a:hover
     max-width: 500px;
     border-radius: 15px;
     padding: 20px;
+    margin-left: 30px;
 
 }
 
 aside .populaires
 {
     display: flex;
-    flex-direction: column;
     background-color: white;
     border-radius: 15px;
+    margin-bottom: 40px;
 }
 
 aside img
 {
-    height: 100px;
-    width: 220px;
+    height: 120px;
+    width: 120px;
     object-fit: cover;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 15px 0px 0px 15px;
     padding: 5px;
 }
 
