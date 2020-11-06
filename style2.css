@@ -13,6 +13,12 @@ body {
     padding: 0 20px;
 }
 
+.center
+{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
 
 .bold
 {
@@ -49,7 +55,6 @@ header nav
     display: flex;
     justify-content: space-between;
     width: 100%;
-    font-size: small;
 }
 
 header ul  
@@ -171,20 +176,23 @@ input
 
 /*HERBERGEMENT*/
 
-#ancre_hebergement 
+#ancre-hebergement 
 {
     background-color: #F2F2F2;
     width: 100%;
-    max-width: 800px;
+    height: 100%;
+    max-width: 885px;
+    max-height: 700px;
     border-radius: 15px;
-    padding: 20px;
+    padding: 40px;
+    margin-bottom: 50px;
 }
 
 .fiches {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    max-width: 800px;
+    max-width: 880px;
     justify-content: space-between;
 }
 
@@ -242,6 +250,14 @@ article>a:hover
         font-weight: bold;
     }
 
+.star
+{
+margin-left: 15px;
+margin-bottom: 15px;
+}
+
+
+
 /*ASIDE*/
 .container
 {
@@ -266,6 +282,13 @@ article>a:hover
 
 }
 
+#populaires-aside h2
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 aside .populaires
 {
     display: flex;
@@ -285,56 +308,115 @@ aside img
 
 /*section activités*/
 
-#activites 
+#section
 {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 50px;
+    max-width: 1400px;
+    width: auto;
 }
+#activite 
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
 .activite1
 {
-    background-color: #F2F2F2;
+    background-color: white;
     width: auto;
-    max-width: 250px;
+    max-width: 300px;
+    height: 445px;
     border-radius: 15px;
-    padding: 20px;
-    margin-left: 30px;
+    box-shadow: 1px 1px 10px lightgrey;
 }
 
 .activite1 img
 {
-    height: 400px;
-    width: 250px;
+    height: 390px;
+    width: 300px;
     object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
 }
 
 .activite2
 {
-    background-color: #F2F2F2;
+    background-color: white;
     width: auto;
-    max-width: 250px;
+    max-width: 300px;
     border-radius: 15px;
-    padding: 20px;
-    margin-left: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    height: 240px;
+    box-shadow: 1px 1px 10px lightgrey;
 }
 
 .activite2 img
 {
-    height: 200px;
-    width: 250px;
+    height: 185px;
+    width: 300px;
     object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
 }
+
+.activite3
+{
+    background-color: white;
+    width: auto;
+    max-width: 300px;
+    border-radius: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 165px;
+    box-shadow: 1px 1px 10px lightgrey;
+}
+
+.activite3 img
+{
+    height: 110px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.activite1 h3
+{
+   line-height: 35px;
+}
+
+.activite2 h3
+{
+    line-height: 35px;
+ }
+
+ .activite3 h3
+{
+    line-height: 35px;
+ }
+
 
 /* footer*/
 footer
 {
     display: flex;
+    width: auto;
     flex-wrap: wrap;
     background-color: #F2F2F2;
     margin-top: auto;
     padding-top: 5%;
 }
 
+
 footer ul
 {
     list-style-type: none;
+}
+
+footer li
+{
+    padding-bottom: 10px;
 }

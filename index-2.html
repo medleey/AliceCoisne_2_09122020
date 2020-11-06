@@ -14,15 +14,15 @@
                 <script src="https://kit.fontawesome.com/37a0604354.js" crossorigin="anonymous"></script>
     </head>
 
-    <body>
+    <body class="center">
         <!--Header-->
         <header class="mobile">
             <nav>
             <img src="images/logo/Reservia.png" alt="logo reservia"/>
             <div>
                 <ul>
-                    <li><a href="ancre-herbergement">Hébergement</a></li>
-                    <li><a href="ancre-activite">Activités</a></li>
+                    <li><a href="#ancre-herbergement">Hébergement</a></li>
+                    <li><a href="#activite">Activités</a></li>
                     <li class="bold"><a class="text-bleu" id="inscription">S'inscrire</a></li>
                 </ul>
             </div>
@@ -79,7 +79,7 @@
 
         <!--Hébergements à Marseille-->
 <div class="container">
-    <article id="ancre_hebergement">
+    <article id="ancre-hebergement">
         <div class="fiches">
             <h2>Hébergements à Marseille</h2>
             <div class="hotel">
@@ -87,7 +87,7 @@
                 <img src="images/hebergements/4_small/cannebiere.jpg" alt="Auberge de la Cannebiere"/>
                     <h3>Auberge de la Cannebière</h3>
                         <p>Nuit à partir de <strong>25€</strong></p>
-                    <div>
+                    <div class="star">
                         <span class="text-bleu"><i class="fas fa-star"></i></span>
                         <span class="text-bleu"><i class="fas fa-star"></i></span>
                         <span class="text-bleu"><i class="fas fa-star"></i></span>
@@ -99,7 +99,7 @@
                 <img src="images/hebergements/4_small/hotel-port.jpg" alt="Hotel du Port"/>
                     <h3>Hôtel du Port</h3>
                         <p>Nuit à partir de <strong>52€</strong></p>
-                    <div>
+                    <div class="star">
                         <span class="text-bleu"><i class="fas fa-star"></i></span>
                         <span class="text-bleu"><i class="fas fa-star"></i></span>
                         <span class="text-bleu"><i class="fas fa-star"></i></span>
@@ -112,7 +112,7 @@
                 <img src="images/hebergements/4_small/mouettes.jpg" alt="Hotel Les Mouettes"/>
                     <h3>Hôtel Les Mouettes</h3>
                         <p>Nuit à partir de <strong>76€</strong></p>
-                    <div>
+                    <div class="star">
                         <span class="text-bleu"><i class="fas fa-star"></i></span>
                         <span class="text-bleu"><i class="fas fa-star"></i></span>
                         <span class="text-bleu"><i class="fas fa-star"></i></span>
@@ -125,7 +125,7 @@
                 <img src="images/hebergements/4_small/hotel-mer.jpg" alt="Hotel de la mer"/>
                     <h3>Hôtel de la Mer</h3>
                         <p>Nuit à partir de <strong>46€</strong></p>
-                    <div>
+                    <div class="star">
                         <span class="text-bleu"><i class="fas fa-star"></i></span>
                         <span class="text-bleu"><i class="fas fa-star"></i></span>
                         <span class="text-bleu"><i class="fas fa-star"></i></span>
@@ -138,7 +138,7 @@
                 <img src="images/hebergements/4_small/auberge-panier.jpg" alt="Auberge le panier">
                     <h3>Auberge Le Panier</h3>
                         <p>Nuit à partir de <strong>23€</strong></p>
-                        <div>
+                        <div class="star">
                             <span class="text-bleu"><i class="fas fa-star"></i></span>
                             <span class="text-bleu"><i class="fas fa-star"></i></span>
                             <span class="text-bleu"><i class="fas fa-star"></i></span>
@@ -151,7 +151,7 @@
                 <img src="images/hebergements/4_small/amina.jpg" alt="Hotel chez Amina">
                     <h3>Hôtel chez Amina</h3>
                         <p>Nuit à partir de <strong>96€</strong></p>
-                        <div>
+                        <div class="star">
                             <span class="text-bleu"><i class="fas fa-star"></i></span>
                             <span class="text-bleu"><i class="fas fa-star"></i></span>
                             <span class="text-bleu"><i class="fas fa-star"></i></span>
@@ -173,7 +173,7 @@
             <i class="fas fa-chart-line" aria-hidden="true"></i>
         </h2>
 
-        <div class="populaires">
+        <div class="populaires" class="center">
             <img src="images/hebergements/4_small/soleil-matin.jpg" alt="hotel le Soleil du matin">
                 <div class="infos-populaire"><h3>Hôtel Le Soleil du Matin</h3>
                     <p>Nuit à partir de <strong>128€</strong></p>
@@ -220,25 +220,23 @@
     </aside>
 
 
-
-
     <section>
-        <div id="activites">
-            
+        <div id="activite">
             <h2>Activités à Marseille</h2>
-                
+
+             <div id="section">  
                 <div class="activite1">
                     <img src="images/activites/4_small/vieux-port.jpg" alt="Vieux Port">
                 <h3>Vieux Port</h3>
                 </div>
-
-                <div class="activite2">
-                    <div>
+               
+                <div>
+                    <div class="activite2">
                     <img src="images/activites/4_small/pomegues.jpg" alt="fort de pomegues">
                     <h3>Fort de Pomègues</h3>
                 </div>
 
-                <div>
+                <div class="activite3">
                     <img src="images/activites/4_small/frioul.jpg" alt="iles du frioul">
                     <h3>Îles du Frioul</h3>
                 </div>
@@ -250,22 +248,23 @@
             <h3>Parc National des Calanques</h3>
         </div>
 
-        <div class="activite2">
-            <div>
+        <div>
+            <div class="activite2">
                 <img src="images/activites/4_small/notre-dame.jpg" alt="notre dame de la garde ">
                 <h3>Notre-Dame-de-la-Garde</h3>
             </div>
 
-            <div>
+            <div class="activite3">
                 <img src="images/activites/4_small/parc-longchamp.jpg" alt="Parc longchamp">
-                <h3>Parc Longchamp</h3>
+                    <h3>Parc Longchamp</h3>
+                </div>
             </div>
         </div>
-    </div>
+    </div> 
     </section>
 
-
     <footer class="mobile">
+    
         <div id="APropos">
             
             <ul>
@@ -287,7 +286,7 @@
 
         <div id="Assistance">
             <ul>
-                <li><span class="bold">Assistance</span></li>
+                <li class="titre"><span class="bold">Assistance</span></li>
                 <li>Centre d'aide</li>
                 <li>Nous contacter</li>
             </ul>
