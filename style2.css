@@ -60,7 +60,10 @@ header ul {
 
 header ul li {
     margin-left: 80px;
+}
 
+header ul li:first-of-type {
+    margin-left: 0;
 }
 
 @media all and (max-width: 700px) {
@@ -74,7 +77,7 @@ header a {
     color: inherit;
 }
 
-header li:hover {
+header li:hover>a {
     color: #0065FC;
     border-top: #0065FC 2px solid;
 }
