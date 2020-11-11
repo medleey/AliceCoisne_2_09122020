@@ -9,106 +9,101 @@ body {
     min-height: 100vh;
 }
 
-.mobile {
-    padding: 0 20px;
-}
-
-.center
-{
-    max-width: 1400px;
-    width: 100%;
+.center {
+    max-width: 100%;
+    width: 1500px;
     margin: 0 auto;
+    padding: 0 20px
 }
 
-.bold
-{
+.bold {
     font-weight: bold;
 }
 
-.text-bleu
-{
+.text-bleu {
     color: #0065FC;
 }
 
-.text-gris
-{
+.text-gris {
     color: #F2F2F2;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p, li, h3 {
+    font-size: 16px;
 }
 
 /*header*/
 
-header
-{
+header {
     display: flex;
     flex-wrap: wrap;
-    padding: 10px;
 }
 
-header img
-{
+header img {
     width: 100px;
     object-fit: contain;
 }
 
-header nav
-{
+header nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
-header ul  
-{
+header ul {
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
-    justify-content: space-around;
-    
+    justify-content: space-around;   
 }
 
-header ul li
-{
+header ul li {
     margin-left: 80px;
-    
 }
 
-@media all and (max-width: 700px) 
-{
-   header ul li
-    {
+@media all and (max-width: 700px) {
+   header ul li {
         margin-left: 20px;
     }
 }
 
-header a
-{
-    text-decoration: none;
-    color: inherit;
+header ul li:first-of-type {
+    margin-left: 0px;
 }
 
-header li:hover
-{
+header a {
+    text-decoration: none;
+    border-top: solid 2px transparent;
+    color: inherit;
+    padding: 10px;
+}
+
+header li:hover {
     color: #0065FC;
     border-top: #0065FC 2px solid;
 }
 
 
 /*recherches*/
-form
-{
-    display: flex;
-    
+form {
+    display: flex; 
 }
 
-#localisation
-{
+#localisation {
     background-color: #F2F2F2;
     border-radius: 10px 0px 0px 10px; 
     border: 2px solid #F2F2F2;
 }
 
-.recherche
-{ 
+.recherche { 
     background-color: #0065FC;
     border-radius: 0px 10px 10px 0px;
     color: white;
@@ -116,8 +111,7 @@ form
 
 }
 
-input
-{
+input {
     padding: 5px;
     height: 20px;
     font-weight: bold;
@@ -132,17 +126,14 @@ input
     padding-left: 20px;
     font-weight: bold;
     flex-wrap: wrap;
-    align-content: flex-start;
-    
+    align-content: flex-start; 
 }
 
-#filtres h2
-{
+#filtres h2 {
     margin-right: 20px;
 }
 
-#filtres ul 
-{
+#filtres ul {
     display: flex;
     align-items: center;
     margin-top: 15px;
@@ -152,8 +143,7 @@ input
     width: 100%;
     max-width: 800px;
 }
-#filtres li
-{
+#filtres li {
     border: 2px solid #F2F2F2;
     border-radius: 20px;
     list-style-type: none;
@@ -161,7 +151,7 @@ input
     margin-left: 20px;
 }
 
-.switch{
+.switch {
     padding: 10px;
     background-color: #DEEBFF;
     border-radius: 20px 20px 20px 20px;
@@ -176,16 +166,15 @@ input
 
 /*HERBERGEMENT*/
 
-#ancre-hebergement 
-{
+#ancre-hebergement {
     background-color: #F2F2F2;
     width: 100%;
-    height: 100%;
-    max-width: 885px;
-    max-height: 700px;
+    height: auto;
+    max-width: 800px;
     border-radius: 15px;
-    padding: 40px;
+    padding: 30px;
     margin-bottom: 50px;
+    margin-right: 40px;
 }
 
 .fiches {
@@ -196,29 +185,26 @@ input
     justify-content: space-between;
 }
 
-.hotel
-{
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
+.hotel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.hotel>div>span
-{
+.hotel>div>span {
     padding-left: 15px;
     margin-bottom: 20px;
 }
 
 .fiches img {
-    height: 150px;
-    width: 250px;
+    height: 114px;
+    width: 236px;
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
     padding: 5px;
 }
 
-.fiches a
-{
+.fiches a {
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -228,122 +214,132 @@ justify-content: space-between;
     border-radius: 15px;
 }
 
-.fiches p, h3
-{
+.fiches a :last-of-type {
+    margin-right: 0px;
+}
+
+.fiches p, 
+h3 {
     margin: 5px;
     margin-left: 15px;
 }
 
-.fiches h2
-{
+.fiches h2 {
     margin-bottom: 20px;
 }
 
 
-article>a
-{
+article>a {
     text-decoration: none;
     color: inherit;
 }
-article>a:hover
-    {
+article>a:hover {
         font-weight: bold;
     }
 
-.star
-{
-margin-left: 15px;
-margin-bottom: 15px;
+.star {
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
 
 
 
 /*ASIDE*/
-.container
-{
+.container {
     display: flex;
     flex-wrap: wrap;
 }
 
-.aside p, h3
-{
+.populaires p {
     margin: 5px;
     margin-left: 15px;
+    margin-bottom: 25px;
+    margin-top: auto;
 }
 
-#populaires-aside 
-{
+.populaires h3 {
+    margin-top: 20px;
+    margin-left: 15px;
+}   
+
+
+#populaires-aside {
     background-color: #F2F2F2;
-    width: auto;
-    max-width: 500px;
+    width: 100%;
+    max-width: 365px;
     border-radius: 15px;
-    padding: 20px;
-    margin-left: 30px;
-
+    padding: 30px;
 }
 
-#populaires-aside h2
-{
+#populaires-aside h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 
-aside .populaires
-{
+aside .populaires {
     display: flex;
     background-color: white;
     border-radius: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 34px;
 }
 
-aside img
-{
-    height: 120px;
-    width: 120px;
+aside img {
+    height: 127px;
+    width: 134px;
     object-fit: cover;
     border-radius: 15px 0px 0px 15px;
     padding: 5px;
 }
 
+.etoile {
+    margin-left: 15px;
+}
+
+
+
 /*section activités*/
 
-#section
-{
+#section {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 50px;
     max-width: 1400px;
-    width: auto;
 }
-#activite 
-{
+
+justify-content: center;
+}
+
+#section>div:not([class]) {
+    margin-bottom: 50px;
+}
+
+#activite {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
 
 
-.activite1
-{
+.activite1 {
     background-color: white;
     width: auto;
     max-width: 300px;
     height: 445px;
     border-radius: 15px;
     box-shadow: 1px 1px 10px lightgrey;
+    margin-bottom: 50px;
 }
 
-.activite1 img
-{
+.activite1 img {
     height: 390px;
     width: 300px;
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
 }
 
-.activite2
-{
+.activite2 {
     background-color: white;
     width: auto;
     max-width: 300px;
@@ -355,16 +351,14 @@ aside img
     box-shadow: 1px 1px 10px lightgrey;
 }
 
-.activite2 img
-{
+.activite2 img {
     height: 185px;
     width: 300px;
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
 }
 
-.activite3
-{
+.activite3 {
     background-color: white;
     width: auto;
     max-width: 300px;
@@ -375,48 +369,52 @@ aside img
     box-shadow: 1px 1px 10px lightgrey;
 }
 
-.activite3 img
-{
+.activite3 img {
     height: 110px;
     width: 300px;
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
 }
 
-.activite1 h3
-{
+.activite1 h3 {
    line-height: 35px;
 }
 
-.activite2 h3
-{
+.activite2 h3 {
     line-height: 35px;
  }
 
- .activite3 h3
-{
+ .activite3 h3 {
     line-height: 35px;
  }
 
 
 /* footer*/
-footer
-{
+footer {
     display: flex;
     width: auto;
     flex-wrap: wrap;
     background-color: #F2F2F2;
-    margin-top: auto;
-    padding-top: 5%;
+}
+
+.taille {
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 
-footer ul
-{
+footer ul {
     list-style-type: none;
 }
 
-footer li
-{
+footer li {
     padding-bottom: 10px;
 }

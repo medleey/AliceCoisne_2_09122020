@@ -12,11 +12,12 @@
                 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
                 </style>
                 <script src="https://kit.fontawesome.com/37a0604354.js" crossorigin="anonymous"></script>
+                <meta content='width=device-width, initial-scale=1 name='viewport'>
     </head>
 
-    <body class="center">
+    <body>
         <!--Header-->
-        <header class="mobile">
+        <header class="center">
             <nav>
             <img src="images/logo/Reservia.png" alt="logo reservia"/>
             <div>
@@ -32,12 +33,12 @@
 
         <!--section recherches-->
                     
-        <div class="mobile">
+        <div class="center">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
         </div>
             
-        <div id="recherche" class="mobile">
+        <div id="recherche" class="center">
              <form action="#">
                 <button id="localisation">
                     <label id="location" for="search"></label>
@@ -52,7 +53,7 @@
 
         <!--section filtres-->
 
-        <section id="filtres" class="mobile">
+        <section id="filtres" class="center">
                 <h2>Filtres</h2>
                 <ul>
                     <li>
@@ -78,7 +79,7 @@
         </section>
 
         <!--Hébergements à Marseille-->
-<div class="container">
+<div class="container center">
     <article id="ancre-hebergement">
         <div class="fiches">
             <h2>Hébergements à Marseille</h2>
@@ -175,9 +176,9 @@
 
         <div class="populaires" class="center">
             <img src="images/hebergements/4_small/soleil-matin.jpg" alt="hotel le Soleil du matin">
-                <div class="infos-populaire"><h3>Hôtel Le Soleil du Matin</h3>
+                <div class="infos-populaire"><h3>Hôtel Le Soleil du <br>Matin</h3>
                     <p>Nuit à partir de <strong>128€</strong></p>
-                    <div>
+                    <div class="etoile">
                         <span class="text-bleu"><i class="fas fa-star"></i></span>
                         <span class="text-bleu"><i class="fas fa-star"></i></span>
                         <span class="text-bleu"><i class="fas fa-star"></i></span>
@@ -189,9 +190,9 @@
 
         <div class="populaires">
             <img src="images/hebergements/4_small/coeur-eau.jpg" alt="Au coeur de l'eau chambres d'hotes">
-                <div class="infos-populaire"><h3>Hôtel Le Soleil du Matin</h3>
+                <div class="infos-populaire"><h3>Au coeur de l'eau <br>Chambres d'hôtes</h3>
                     <p>Nuit à partir de <strong>71€</strong></p>
-                    <div>
+                    <div class="etoile">
                         <span class="text-bleu"><i class="fas fa-star"></i></span>
                         <span class="text-bleu"><i class="fas fa-star"></i></span>
                         <span class="text-bleu"><i class="fas fa-star"></i></span>
@@ -203,9 +204,9 @@
 
         <div class="populaires">
             <img src="images/hebergements/4_small/tout-bleu-blanc.jpg" alt="Au coeur de l'eau chambres d'hotes">
-                <div class="infos-populaire"><h3>Hôtel Le Soleil du Matin</h3>
+                <div class="infos-populaire"><h3>Hôtel Tout Bleu et<br> Blanc</h3>
                     <p>Nuit à partir de <strong>68€</strong></p>
-                    <div>
+                    <div class="etoile">
                         <span class="text-bleu"><i class="fas fa-star"></i></span>
                         <span class="text-bleu"><i class="fas fa-star"></i></span>
                         <span class="text-bleu"><i class="fas fa-star"></i></span>
@@ -220,7 +221,7 @@
     </aside>
 
 
-    <section>
+    <section class="center">
         <div id="activite">
             <h2>Activités à Marseille</h2>
 
@@ -263,8 +264,9 @@
     </div> 
     </section>
 
-    <footer class="mobile">
-    
+    <footer>
+    <div id="footer" class="center">
+        <nav class="taille">
         <div id="APropos">
             
             <ul>
@@ -291,6 +293,8 @@
                 <li>Nous contacter</li>
             </ul>
         </div>
+    </nav>
+    </div>
     </footer>
         
     </body>
