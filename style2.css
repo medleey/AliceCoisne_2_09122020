@@ -11,9 +11,9 @@ body {
 
 .center {
     max-width: 100%;
-    width: 1500px;
+    width: 1340px;
     margin: 0 auto;
-    padding: 0 20px
+    padding: 0 25px
 }
 
 .bold {
@@ -99,23 +99,34 @@ form {
 
 #localisation {
     background-color: #F2F2F2;
-    border-radius: 10px 0px 0px 10px; 
+    border-radius: 15px 0px 0px 15px; 
     border: 2px solid #F2F2F2;
+    width: 51px;
+    font-size: 16px;
 }
 
 .recherche { 
     background-color: #0065FC;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 15px 15px 0px;
     color: white;
     border: 1px solid #0065FC;
+    max-width: 135px;
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+
 
 }
 
 input {
-    padding: 5px;
-    height: 20px;
+    padding-left: 15px;
+    height: 44px;
+    width: 100%;
+    max-width: 214px;
     font-weight: bold;
     border: 2px solid #F2F2F2;
+    font-family: 'Raleway';
+    font-size: 18px;
 }
 
 /*filtres*/
@@ -123,14 +134,13 @@ input {
     display: flex;
     align-items: center;
     margin-top: 15px;
-    padding-left: 20px;
     font-weight: bold;
     flex-wrap: wrap;
     align-content: flex-start; 
 }
 
 #filtres h2 {
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 #filtres ul {
@@ -141,27 +151,43 @@ input {
     font-weight: bold;
     flex-wrap: wrap;
     width: 100%;
-    max-width: 800px;
+    max-width: 935px;
 }
 #filtres li {
     border: 2px solid #F2F2F2;
-    border-radius: 20px;
+    border-radius: 50px;
     list-style-type: none;
     padding-right: 20px;
-    margin-left: 20px;
+    margin-left: 27px;
 }
 
 .switch {
     padding: 10px;
     background-color: #DEEBFF;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 50px;
     text-align: center;
     color: #0065FC;
     border: 1px solid #DEEBFF;
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     margin-left: -5px;
     margin-right: 10px;
+    font-size: 20px;
+}
+
+.dispo {
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.info {
+    color: #0065FC;
+    border: 1px solid #DEEBFF;
+    border-radius: 18px;
+    height: 18px;
+    width: 18px;
+    text-align: center;
+    padding: 5px;
 }
 
 /*HERBERGEMENT*/
@@ -170,18 +196,18 @@ input {
     background-color: #F2F2F2;
     width: 100%;
     height: auto;
-    max-width: 800px;
+    max-width: 825px;
     border-radius: 15px;
-    padding: 30px;
+    padding: 10px 10px 40px 40px;
     margin-bottom: 50px;
-    margin-right: 40px;
+    margin-right: 45px;
 }
 
 .fiches {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    max-width: 880px;
+    max-width: 875px;
     justify-content: space-between;
 }
 
@@ -198,7 +224,7 @@ input {
 
 .fiches img {
     height: 114px;
-    width: 236px;
+    width: 235px;
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
     padding: 5px;
@@ -210,6 +236,7 @@ input {
     background-color: white;
     text-decoration: none;
     color: inherit;
+    margin-right: 30px;
     margin-bottom: 30px;
     border-radius: 15px;
 }
@@ -265,8 +292,8 @@ article>a:hover {
 
 #populaires-aside {
     background-color: #F2F2F2;
+    max-width: 360px;
     width: 100%;
-    max-width: 365px;
     border-radius: 15px;
     padding: 30px;
 }
@@ -280,9 +307,10 @@ article>a:hover {
 
 aside .populaires {
     display: flex;
+    width: auto;
     background-color: white;
     border-radius: 15px;
-    margin-bottom: 34px;
+    margin-bottom: 30px;
 }
 
 aside img {
@@ -304,16 +332,14 @@ aside img {
 #section {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 50px;
-    max-width: 1400px;
+    max-width: 1340px;
+    width: 100%;
+    justify-content: space-between;
 }
 
 justify-content: center;
 }
 
-#section>div:not([class]) {
-    margin-bottom: 50px;
-}
 
 #activite {
     display: flex;
@@ -341,11 +367,9 @@ justify-content: center;
 
 .activite2 {
     background-color: white;
-    width: auto;
+    width: 100%;
     max-width: 300px;
     border-radius: 15px;
-    margin-left: 40px;
-    margin-right: 40px;
     margin-bottom: 40px;
     height: 240px;
     box-shadow: 1px 1px 10px lightgrey;
@@ -363,8 +387,6 @@ justify-content: center;
     width: auto;
     max-width: 300px;
     border-radius: 15px;
-    margin-left: 40px;
-    margin-right: 40px;
     height: 165px;
     box-shadow: 1px 1px 10px lightgrey;
 }
@@ -399,22 +421,33 @@ footer {
 
 .taille {
     width: 100%;
-    max-width: 900px;
+    max-width: 75%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #footer {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-wrap: wrap;   
+    width: 1340px;
+    padding: 20px;
 }
 
 
 footer ul {
     list-style-type: none;
+    padding: 0px;
 }
 
 footer li {
     padding-bottom: 10px;
 }
+
+
+/*media queries*/
+@media all and (max-width: 700px) {
+    header ul li {
+         margin-left: 20px;
+     }
+ }
