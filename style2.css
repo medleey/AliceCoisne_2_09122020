@@ -50,7 +50,6 @@ header {
 header img {
     width: 100px;
     object-fit: contain;
-    padding-top: 40px;
 }
 
 header nav {
@@ -70,6 +69,11 @@ header ul li {
     margin-left: 80px;
 }
 
+@media all and (max-width: 700px) {
+   header ul li {
+        margin-left: 20px;
+    }
+}
 
 header ul li:first-of-type {
     margin-left: 0px;
@@ -79,29 +83,12 @@ header a {
     text-decoration: none;
     border-top: solid 2px transparent;
     color: inherit;
-    padding-top: 48px;
+    padding: 10px;
 }
 
-header a:hover {
+header li:hover {
     color: #0065FC;
     border-top: #0065FC 2px solid;
-}
-
-header li :hover {
-    color: #0065FC;
-}
-
-.hidden {
-    display: none ;
-}
-
-.menu {
-    padding-top: 50px;
-}
-
-.ul {
-    margin: 0px;
-    padding: 0px;
 }
 
 
@@ -458,3 +445,9 @@ footer li {
 }
 
 
+/*media queries*/
+@media all and (max-width: 700px) {
+    header ul li {
+         margin-left: 20px;
+     }
+ }
