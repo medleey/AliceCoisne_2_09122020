@@ -3,7 +3,8 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-        <link rel="stylesheet" href="style2.css" />
+        <link rel="stylesheet" href="style2.css"/>
+        <link rel="stylesheet" media="screen and (max-width: 375px)" href="responsive.css">
         <title>Reservia - Trouvez votre hébergement de vacances de rêve </title>
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
@@ -17,17 +18,35 @@
 
     <body>
         <!--Header-->
-        <header class="center">
+        <header class="center desktop">
             <nav>
             <img src="images/logo/Reservia.png" alt="logo reservia"/>
-            <div>
-                <ul>
-                    <li><a href="#ancre-herbergement">Hébergement</a></li>
+            <div class="menu">
+                <ul class="ul">
+                    <li><a href="#ancre-herbergement">Hébergements</a></li>
                     <li><a href="#activite">Activités</a></li>
                     <li class="bold"><a class="text-bleu" id="inscription">S'inscrire</a></li>
                 </ul>
             </div>
         </nav>
+        </header>
+
+        <header class="hidden responsive">
+            <nav>
+            <img src="images/logo/Reservia.png" alt="logo reservia"/>
+            <div class="inscrire">
+                <a class="text-bleu bold" id="inscription">S'inscrire</a>
+            </div>
+        </nav>
+
+        <!--RESPONSIVE HEADER-->
+        <div class="heber-act">
+            <ul class="mobile">
+            <li><a class="respon" href="#ancre-herbergement">Hébergements</a></li>
+            <li><a class="respon" href="#activite">Activités</a></li>
+            </ul>
+        </div>
+
         </header>
         <!--fin header-->
 
@@ -35,25 +54,26 @@
                     
         <div class="center">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                <p>En plein centre ville ou en pleine nature</p>
+                <p class="place">En plein centre ville ou en pleine nature</p>
         </div>
             
         <div id="recherche" class="center">
-             <form action="#">
-                <button id="localisation">
+             <form class="form1" action="#">
+                <button id="localisation" class="localisation1">
                     <label id="location" for="search"></label>
                     <i class="fas fa-map-marker-alt"></i></label>
                 </button>
                         <input type="text" name="search" placeholder="Marseille, France"/>
-                    <button class="recherche">
-                        Rechercher
+                    <button class="recherche mob">
+                        <span class="desktop" >Rechercher</span><span class="mob hidden responsive"><i class="fas fa-search"></i></span>
                     </button>
                 </form>
             </div>
 
+
         <!--section filtres-->
 
-        <section id="filtres" class="center">
+        <section id="filtres" class="center ">
                 <h2>Filtres</h2>
                 <ul>
                     <li>
@@ -78,8 +98,8 @@
                 </ul>
         </section>
 
-        <p class="center dispo">
-            <i class="fas fa-info info"></i>
+        <p class="center dispo dispo-responsive">
+            <i class="fas fa-info info i"></i>
             Plus de 500 logements sont disponibles dans cette ville
         </p>
 
@@ -153,7 +173,7 @@
                         </div>
             </a>
 
-            <a href="#">
+            <a class="last" href="#">
                 <img src="images/hebergements/4_small/amina.jpg" alt="Hotel chez Amina">
                     <h3>Hôtel chez Amina</h3>
                         <p>Nuit à partir de <strong>96€</strong></p>
@@ -168,7 +188,7 @@
         </div>
         
         </div>
-        <a href="#">Afficher plus</a>
+        <a class="bold-responsive" href="#">Afficher plus</a>
         
     </article>
 
@@ -178,7 +198,6 @@
         <h2>Les plus populaires
             <i class="fas fa-chart-line" aria-hidden="true"></i>
         </h2>
-
         <div class="populaires" class="center">
             <img src="images/hebergements/4_small/soleil-matin.jpg" alt="hotel le Soleil du matin">
                 <div class="infos-populaire"><h3>Hôtel Le Soleil du <br>Matin</h3>
@@ -220,15 +239,16 @@
                     </div>
                 </div>
         </div>
-
-        </div>
     </div>
     </aside>
 
 
+
+
+
     <section class="center">
         <div id="activite">
-            <h2>Activités à Marseille</h2>
+            <h2 class="padding">Activités à Marseille</h2>
 
              <div id="section">  
                 <div class="activite1">
