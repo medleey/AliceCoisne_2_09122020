@@ -1,10 +1,10 @@
 /*media queries*/
 @media (max-width:375px) {
     header ul li {
-         margin-left: 20px;
+        margin-left: 20px;
      }
 
-     header img {
+    header img {
         width: 100px;
         object-fit: contain;
         padding-top: 20px;
@@ -21,7 +21,7 @@
    }
 
    ul.mobile {
-       padding: 0px;
+        padding: 0px;
     }
 
     header a:hover {
@@ -34,7 +34,7 @@
     }
 
     a.respon {
-        padding-top:0px;
+        padding-top: 0px;
         padding-bottom: 15px;
         border-bottom: solid 2px lightgrey;
     }
@@ -54,37 +54,36 @@
         padding-right: 20px;
     }
     
-    .dispo-responsive
-    {
+    .dispo-responsive {
         margin: 20px;
     }
 
-     .bold-responsive{
+     .bold-responsive {
          font-weight: bold;
     }
 
-     .center {
+    .center {
         max-width: 375px;
         width: 100%;
         margin: 0 auto;
         padding: 0px;
-     }
+    }
 
      .desktop {
          display: none;
-     }
+    }
 
      .responsive {
          display: flex;
-     }
+    }
 
      .mob-pad {
          padding-left: 20px;
-     }
+    }
 
-     /*RECHERCHES*/
+    /*RECHERCHES*/
 
-     .form1 {
+    .form1 {
         display: flex; 
         justify-content: center;
         padding-top: 15px;
@@ -98,7 +97,7 @@
         font-size: 18px;
     }
 
-     .mob {
+    .mob {
         background-color: #0065FC;
         border-radius: 15px;
         color: white;
@@ -107,18 +106,17 @@
         width: 100%;
         justify-content: center;
         font-size: 20px;
-     } 
+    } 
 
-     .reverse {
+    .reverse {
         flex-direction: column-reverse;
     }
 
 
 
-     /*HEBERGEMENTS*/
-     #ancre-hebergement {
-        
-         width: 100%;
+    /*HEBERGEMENTS*/
+    #ancre-hebergement {
+          width: 100%;
          border-radius: 0px;
          max-width: 335px;
          height: auto;
@@ -126,28 +124,28 @@
          background-color:white;
          margin: 0px;
 
-     }
+    }
 
-     .fiches a {
+    .fiches a {
          box-shadow: 1px 1px 10px lightgrey;
          margin-bottom: 12px;
          margin-right: 0px;
 
-     }
+    }
 
-     .fiches img {
-         height: 114px;
-         width: 100%;
-         max-width: 325px;
-     }
+    .fiches img {
+        height: 114px;
+        width: 100%;
+        max-width: 325px;
+    }
 
-     a.last {
+    a.last {
          margin-bottom: 30px;
-     }
+    }
     
 
-     /*ACTIVITES MARSEILLE*/
-     .activite1{
+    /*ACTIVITES MARSEILLE*/
+    .activite1{
          background-color: white;
          width: 100%;
          max-width: 325px;
@@ -155,9 +153,9 @@
          margin-bottom: 24px;
          border-radius: 15px;
          box-shadow: 1px 1px 10px lightgrey;
-     }
+    }
 
-     .activite2 {
+    .activite2 {
         background-color: white;
         width: 100%;
         max-width: 335px;
@@ -165,9 +163,9 @@
         margin-bottom: 24px;
         border-radius: 15px;
         box-shadow: 1px 1px 10px lightgrey;
-     }
+    }
 
-     .activite3 {
+    .activite3 {
         background-color: white;
         width: 100%;
         max-width: 335px;
@@ -175,23 +173,23 @@
         margin-bottom: 24px;
         border-radius: 15px;
         box-shadow: 1px 1px 10px lightgrey;
-     }
+    }
 
-     .activite1 img {
+    .activite1 img {
         height: 135px;
         width: 100%;
         max-width: 325px;
         object-fit: cover;
         border-radius: 15px 15px 0px 0px;
-     }
+    }
 
-     .activite2 img {
+    .activite2 img {
         height: 135px;
         width: 100%;
         max-width: 325px;
         object-fit: cover;
         border-radius: 15px 15px 0px 0px;
-     }
+    }
 
      .activite3 img {
         height: 135px;
@@ -201,35 +199,35 @@
         border-radius: 15px 15px 0px 0px;
      }
 
-     .padding {
+    .padding {
          padding-left: 20px;
 
-     }
+    }
 
-     /*POPULAIRES MARSEILLE*/   
-     #populaires-aside{
+    /*POPULAIRES MARSEILLE*/   
+    #populaires-aside{
          background-color: #f2f2f2;
          max-width: 330px;
          width: 100%;
          border-radius: 0px;
          padding: 20px;
-     }
+    }
 
-     aside .populaires {
+    aside .populaires {
          margin-bottom: 10px;
          box-shadow: 1px 1px 10px lightgrey;
-     }
+    }
 
-     /*ACTIVITES MARSEILLE*/
-     #section {
+    /*ACTIVITES MARSEILLE*/
+    #section {
          max-width: 375px;
          width: 100%;
          justify-content: center;
-     }
+    }
 
-     .taille {
+    .taille {
          flex-direction: column;
-     }
+    }
     
  }
 
@@ -252,3 +250,4 @@
         max-width: 90%;
     }
  }
+ 
