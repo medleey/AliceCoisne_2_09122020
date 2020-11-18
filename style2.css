@@ -10,10 +10,10 @@ body {
 }
 
 .center {
-    max-width: 100%;
-    width: 1340px;
+    max-width: 1340px;
+    width: calc(100% - 50px);
     margin: 0 auto;
-    padding: 0 25px
+    padding: 0 25px;
 }
 
 .bold {
@@ -216,7 +216,6 @@ input {
     max-width: 825px;
     border-radius: 15px;
     padding: 10px 10px 40px 40px;
-    margin-bottom: 50px;
     margin-right: 45px;
 }
 
@@ -226,6 +225,13 @@ input {
     width: 100%;
     max-width: 875px;
     justify-content: space-between;
+}
+
+.fiches a {
+    box-shadow: 1px 1px 10px lightgrey;
+    margin-bottom: 12px;
+    margin-right: 0px;
+
 }
 
 .hotel {
@@ -292,6 +298,8 @@ article>a:hover {
 .container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .populaires p {
@@ -306,11 +314,15 @@ article>a:hover {
     margin-left: 15px;
 }   
 
+aside {
+    display: flex;
+    flex: 1; 
+}
+
 
 #populaires-aside {
     background-color: #F2F2F2;
-    max-width: 360px;
-    width: 100%;
+    width: calc(100% - 60px);
     border-radius: 15px;
     padding: 30px;
 }
@@ -324,10 +336,10 @@ article>a:hover {
 
 aside .populaires {
     display: flex;
-    width: auto;
     background-color: white;
     border-radius: 15px;
     margin-bottom: 30px;
+    box-shadow: 1px 1px 10px lightgrey;
 }
 
 aside img {
