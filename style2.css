@@ -47,6 +47,12 @@ header {
     flex-wrap: wrap;
 }
 
+.header {
+    justify-content: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 header img {
     width: 100px;
     object-fit: contain;
@@ -107,12 +113,6 @@ header li :hover {
 .ul {
     margin: 0px;
     padding: 0px;
-}
-
-.desktop {
-    display: flex;
-    flex-wrap: wrap;
-    
 }
 
 .inscrire {
@@ -206,9 +206,7 @@ input {
 }
 
 .dispo {
-    display: flex;
-    margin-top: 20px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
 }
 
 .info {
@@ -219,6 +217,15 @@ input {
     width: 18px;
     text-align: center;
     padding: 5px;
+}
+
+.logements {
+    display: flex;
+    align-items: center;
+}
+
+.logements p {
+    margin-left: 10px;
 }
 
 /*HERBERGEMENT*/
