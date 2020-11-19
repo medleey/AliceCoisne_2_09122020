@@ -13,6 +13,10 @@
         padding-left: 20px;
     }
 
+    header nav {
+        display: contents;
+    }
+
     #inscription {
         border-bottom: unset;
         margin-top: 40px;
@@ -22,6 +26,8 @@
         padding-right: 15px;
         order: unset;
         padding-top: unset;
+        margin-left: auto;
+        margin-right: unset;
     }
 
    .inscrire a {
