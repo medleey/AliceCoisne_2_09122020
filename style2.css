@@ -50,12 +50,13 @@ header {
 header img {
     width: 100px;
     object-fit: contain;
-    padding-top: 40px;
+    padding-top: 30px;
 
 }
 
 header nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
 }
@@ -64,7 +65,9 @@ header ul {
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
-    justify-content: space-around;   
+    justify-content: space-around; 
+    margin-top: 50px; 
+    padding-left: unset; 
 }
 
 header ul li {
@@ -106,6 +109,16 @@ header li :hover {
     padding: 0px;
 }
 
+.desktop {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.inscrire {
+    order: 3;
+    padding-top: 50px;
+}
 
 
 
@@ -193,6 +206,7 @@ input {
 }
 
 .dispo {
+    display: flex;
     margin-top: 20px;
     margin-bottom: 35px;
 }

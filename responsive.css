@@ -1,7 +1,9 @@
 /*media queries*/
 @media (max-width:375px) {
     header ul li {
-        margin-left: 20px;
+        margin-top: unset;
+        width: 50%;
+        margin-left: unset;
      }
 
     header img {
@@ -9,6 +11,11 @@
         object-fit: contain;
         padding-top: 20px;
         padding-left: 20px;
+    }
+
+    #inscription {
+        border-bottom: unset;
+        margin-top: 40px;
     }
 
    .inscrire {
@@ -27,6 +34,7 @@
     header a:hover {
         color: #0065FC;
         border-bottom: #0065FC 2px solid;
+        border-top: solid 2px transparent;
     }
 
     header li :hover {
@@ -34,6 +42,8 @@
     }
 
     a.respon {
+        display: block;
+        text-align: center;
         padding-top: 0px;
         padding-bottom: 15px;
         border-bottom: solid 2px lightgrey;
@@ -110,6 +120,28 @@
 
     .reverse {
         flex-direction: column-reverse;
+    }
+
+    /*filtres*/
+    #filtres li {
+        padding-right: 15px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    #filtres h2 {
+        margin-bottom: unset;
+    }
+
+    .dispo {
+        display: flex;
+        padding: 0px 20px 30px 20px;
+        margin-bottom: unset;
+        margin-top: unset;
+    }
+
+    .dispo>p {
+        margin-left: 10px;
     }
 
 
