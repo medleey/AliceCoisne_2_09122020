@@ -18,10 +18,11 @@
         margin-top: 40px;
     }
 
-   .inscrire {
-       display: flex;
-       margin-right: 20px;
-   }
+    .inscrire {
+        padding-right: 15px;
+        order: unset;
+        padding-top: unset;
+    }
 
    .inscrire a {
        padding-top: 40px;
