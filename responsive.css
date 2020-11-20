@@ -125,6 +125,9 @@
         font-size: 20px;
     } 
 
+    button {
+        margin-left: -10px;
+    }
     .reverse {
         flex-direction: column-reverse;
     }
@@ -142,8 +145,6 @@
 
     .dispo {
         display: flex;
-        padding: 0px 20px 30px 20px;
-        margin-bottom: unset;
         margin-top: unset;
     }
 
@@ -281,7 +282,7 @@
     }
 
     #ancre-hebergement {
-        margin-right: 0px;
+        margin-right: 30px;
         margin-bottom: 30px;
     }
 
