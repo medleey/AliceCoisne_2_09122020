@@ -80,12 +80,13 @@ header ul
     flex-wrap: wrap;
     list-style-type: none;
     justify-content: space-around; 
-    margin-top: 50px; 
     padding-left: unset; 
+    margin: unset;
 }
 
 header ul li {
     margin-left: 40px;
+    padding-top: 48px;
 }
 
 header ul li:first-of-type {
@@ -98,18 +99,14 @@ header a
     border-top: solid 2px transparent;
     color: inherit;
     padding: 10px;
-    padding-top: 48px;
+    padding-top: 46px;
 
 }
 
-header li:hover
+header a:hover
 {
     color: #0065FC;
     border-top: #0065FC 2px solid;
-}
-
-header li :hover {
-    color: #0065FC;
 }
 
 .hidden {
@@ -127,11 +124,19 @@ header li :hover {
 
 .inscrire {
     order: 3;
-    padding-top: 50px;
+
+}
+
+.inscrire:hover {
+    color: #0065FC;
+    border-top: #0065FC 2px solid;
 }
 
 .inscrire a {
     margin-left: 40px;
+    display: block;
+    padding-top: 46px;
+    border-top: solid 2px transparent;
 }
 
 
