@@ -89,8 +89,9 @@
         border-top: solid 2px transparent;
     }
 
-    header li :hover {
+    header li:hover {
         color: #0065FC;
+        border-top: unset;
     }
 
     a.respon {
