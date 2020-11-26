@@ -127,10 +127,6 @@ header a:hover
 
 }
 
-.inscrire:hover {
-    color: #0065FC;
-    border-top: #0065FC 2px solid;
-}
 
 .inscrire a {
     margin-left: 40px;
@@ -270,12 +266,6 @@ input {
     justify-content: space-between;
 }
 
-.fiches a {
-    box-shadow: 1px 1px 10px lightgrey;
-    margin-bottom: 12px;
-    margin-right: 0px;
-
-}
 
 .hotel {
     display: flex;

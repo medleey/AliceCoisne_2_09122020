@@ -1,5 +1,5 @@
 /*media queries*/
-@media all and (min-width:800px) and (max-width: 1340px) {
+@media (max-width: 992px) {
 
     #populaires-aside {
         max-width: unset;
@@ -14,7 +14,16 @@
         justify-content: center;
         margin-right: unset;
         margin-bottom: 30px;
+        width: 100%;
+        height: auto;
+    }
 
+    #section {
+        justify-content: space-evenly;
+    }
+
+    .hotel {
+        justify-content: space-around;
     }
 
     .taille {
@@ -33,10 +42,9 @@
     }
 }
 
-@media (max-width:375px) {
+@media (max-width:576px) {
 
     .center {
-        max-width: 375px;
         width: calc(100% - 40px);
         margin: 0 auto;
         padding: 0 20px;
@@ -189,7 +197,6 @@
     #ancre-hebergement {
         width: calc(100% - 40px);
         border-radius: 0px;
-        max-width: 335px;
         height: auto;
         padding: 20px;
         background-color:white;
@@ -201,13 +208,13 @@
         box-shadow: 1px 1px 10px lightgrey;
         margin-bottom: 12px;
         margin-right: 0px;
+        width: 100%;
 
     }
 
     .fiches img {
         height: 114px;
         width: calc(100% - 10px);
-        max-width: 325px;
     }
 
     a.last {
@@ -219,7 +226,7 @@
     .activite1{
         background-color: white;
         width: 100%;
-        max-width: 325px;
+        max-width: 100%;
         height: 190px;
         margin-bottom: 24px;
         border-radius: 15px;
@@ -229,7 +236,7 @@
     .activite2 {
         background-color: white;
         width: 100%;
-        max-width: 335px;
+        max-width: 100%;
         height: 190px;
         margin-bottom: 24px;
         border-radius: 15px;
@@ -239,7 +246,7 @@
     .activite3 {
         background-color: white;
         width: 100%;
-        max-width: 335px;
+        max-width: 100%;
         height: 190px;
         margin-bottom: 24px;
         border-radius: 15px;
@@ -249,7 +256,7 @@
     .activite1 img {
         height: 135px;
         width: 100%;
-        max-width: 325px;
+        max-width: 100%;
         object-fit: cover;
         border-radius: 15px 15px 0px 0px;
     }
@@ -257,7 +264,7 @@
     .activite2 img {
         height: 135px;
         width: 100%;
-        max-width: 325px;
+        max-width: 100%;
         object-fit: cover;
         border-radius: 15px 15px 0px 0px;
     }
@@ -265,13 +272,13 @@
     .activite3 img {
         height: 135px;
         width: 100%;
-        max-width: 325px;
+        max-width: 100%;
         object-fit: cover;
         border-radius: 15px 15px 0px 0px;
     }
 
-    .padding {
-        padding-left: 20px;
+    .size {
+        width: 100%;
     }
 
     /*POPULAIRES MARSEILLE*/   
@@ -289,7 +296,6 @@
 
     /*ACTIVITES MARSEILLE*/
     #section {
-        max-width: 375px;
         width: 100%;
         justify-content: center;
     }
