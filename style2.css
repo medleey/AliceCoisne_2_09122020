@@ -255,6 +255,7 @@ input {
     border-radius: 15px;
     padding: 10px 10px 40px 40px;
     margin-right: 45px;
+    margin-bottom: 50px;
 }
 
 .fiches {
@@ -336,7 +337,6 @@ article>a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 50px;
 }
 
 .populaires p {
@@ -354,6 +354,7 @@ article>a:hover {
 aside {
     display: flex;
     flex: 1; 
+    margin-bottom: 50px;
 }
 
 
