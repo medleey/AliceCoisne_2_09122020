@@ -162,7 +162,7 @@ form {
     font-size: 18px;
 }
 
-#filtres>ul>li:hover {
+.filtres>ul>li:hover {
     background: #F2F2F2;
     color: #0065FC;
 }
@@ -179,7 +179,7 @@ input {
 }
 
 /*filtres*/
-#filtres {
+.filtres {
     display: flex;
     align-items: center;
     margin-top: 15px;
@@ -188,11 +188,11 @@ input {
     align-content: flex-start; 
 }
 
-#filtres h2 {
+.filtres h2 {
     margin-right: 10px;
 }
 
-#filtres ul 
+.filtres ul 
 {
     display: flex;
     align-items: center;
@@ -203,7 +203,7 @@ input {
     width: 100%;
     max-width: 935px;
 }
-#filtres li {
+.filtres li {
     border: 2px solid #F2F2F2;
     border-radius: 50px;
     list-style-type: none;
@@ -361,14 +361,14 @@ aside {
 }
 
 
-#populaires-aside {
+.populaires-aside {
     background-color: #F2F2F2;
     width: calc(100% - 60px);
     border-radius: 15px;
     padding: 30px;
 }
 
-#populaires-aside h2
+.populaires-aside h2
 {
     display: flex;
     justify-content: space-between;
@@ -487,13 +487,6 @@ aside img {
     line-height: 35px;
  }
 
-.groupe {
-    width: 48%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    min-width: 650px;
-}
 
 /* footer*/
 footer
@@ -512,7 +505,7 @@ footer
     justify-content: space-between;
 }
 
-#footer {
+.footer {
     display: flex;
     flex-wrap: wrap;   
     width: 1340px;
@@ -562,7 +555,7 @@ footer li
 
 @media (max-width: 992px) {
 
-    #populaires-aside {
+    .populaires-aside {
         max-width: unset;
     }
 
@@ -583,11 +576,21 @@ footer li
         max-width: 90%;
     }
 
-    #filtres li {
+    .filtres li {
         padding-right: 15px;
         margin-left: 0;
         margin-bottom: 10px;
         margin-right: 5px;
+    }
+}
+
+@media (min-width:680px) {
+    .groupe {
+        width: 48%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        min-width: 650px;
     }
 }
 
@@ -688,14 +691,6 @@ footer li
         justify-content: center;
         padding-top: 15px;
     }
-    
-    #localisation1 {
-        background-color: #F2F2F2;
-        border-radius: 15px 0px 0px 15px; 
-        border: 2px solid #F2F2F2;
-        width: 51px;
-        font-size: 18px;
-    }
 
     .mob {
         background-color: #0065FC;
@@ -718,14 +713,14 @@ footer li
     }
 
     /*filtres*/
-    #filtres li {
+    .filtres li {
         padding-right: 15px;
         margin-left: 0;
         margin-bottom: 10px;
         margin-right: 10px;
     }
 
-    #filtres h2 {
+    .filtres h2 {
         margin-bottom: unset;
         margin-right: unset;
     }
@@ -831,7 +826,7 @@ footer li
     }
 
     /*POPULAIRES MARSEILLE*/   
-    #populaires-aside {
+    .populaires-aside {
         background-color: #f2f2f2;
         width: 100%;
         border-radius: 0px;
