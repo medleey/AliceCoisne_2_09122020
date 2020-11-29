@@ -525,6 +525,21 @@ footer li
 }
 
 /*media queries*/
+
+@media (max-width: 1365px) {
+   #ancre-hebergement{
+    width: 100%;
+    margin-right: unset;
+    }
+
+    .fiches {
+        max-width: unset;
+    }
+
+    .hotel {
+        justify-content: center;
+    }
+}
 @media (max-width: 992px) {
 
     #populaires-aside {
@@ -546,10 +561,6 @@ footer li
 
     #section {
         justify-content: space-evenly;
-    }
-
-    .hotel {
-        justify-content: space-around;
     }
 
     .taille {
