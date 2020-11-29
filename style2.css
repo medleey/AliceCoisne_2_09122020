@@ -487,6 +487,13 @@ aside img {
     line-height: 35px;
  }
 
+.groupe {
+    width: 48%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-width: 650px;
+}
 
 /* footer*/
 footer
@@ -544,7 +551,15 @@ footer li
     .populaires {
         min-width: 334px;
     }
+
+    #section {
+        justify-content: space-evenly;
+    }
+    .groupe {
+        margin-top: 30px;
+    }
 }
+
 @media (max-width: 992px) {
 
     #populaires-aside {
@@ -564,10 +579,6 @@ footer li
         height: auto;
     }
 
-    #section {
-        justify-content: space-evenly;
-    }
-
     .taille {
         max-width: 90%;
     }
@@ -577,10 +588,6 @@ footer li
         margin-left: 0;
         margin-bottom: 10px;
         margin-right: 5px;
-    }
-
-    .activite1 {
-        margin-bottom: 30px;
     }
 }
 
