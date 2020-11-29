@@ -530,6 +530,7 @@ footer li
    #ancre-hebergement{
     width: 100%;
     margin-right: unset;
+    max-width: unset;
     }
 
     .fiches {
@@ -538,6 +539,10 @@ footer li
 
     .hotel {
         justify-content: center;
+    }
+
+    .populaires {
+        min-width: 334px;
     }
 }
 @media (max-width: 992px) {
