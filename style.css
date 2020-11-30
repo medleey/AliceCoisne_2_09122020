@@ -427,6 +427,7 @@ aside img {
     height: 445px;
     border-radius: 15px;
     box-shadow: 1px 1px 10px lightgrey;
+    margin-bottom: 30px;
 }
 
 .activite1 img
@@ -570,6 +571,10 @@ footer li
         margin-bottom: 30px;
         width: 100%;
         height: auto;
+    }
+
+    .activite1 {
+        margin-bottom: 30px;
     }
 
     .taille {
