@@ -300,6 +300,7 @@ input {
     margin-right: 30px;
     margin-bottom: 30px;
     border-radius: 15px;
+    box-shadow: 1px 1px 10px lightgrey;
 }
 
 .fiches a :last-of-type {
